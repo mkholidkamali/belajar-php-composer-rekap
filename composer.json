@@ -1,0 +1,19 @@
+{
+    "name": "kkrekap/rekap-library",
+    "description": "Belajar Membuat library di composer",
+    "type": "library",
+    "authors": [
+        {
+            "name": "mkholidkamali",
+            "email": "mohamadkholid.kamali@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "rekapLibrary\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=8.0"
+    }
+}
